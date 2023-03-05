@@ -67,7 +67,7 @@ function App() {
     <Screens />
   ) : (
     <>
-      <Title>DynaStor</Title>
+      <Title>DynaStore</Title>
       <Authenticator
         onStateChange={authState => {
           if (authState === "signedIn") {
