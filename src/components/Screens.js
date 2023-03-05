@@ -91,7 +91,7 @@ const Screens = () => {
   return (
     <>
       <Header>
-        <Title>Quick Notes</Title>
+        <Title>DynaStore</Title>
         <SignOutButton
           onClick={() => {
             Auth.signOut().then(() => window.location.reload());
@@ -102,8 +102,8 @@ const Screens = () => {
       </Header>
       <StyledTabs index={tabIndex} onChange={index => setTabIndex(index)}>
         <StyledTabList>
-          <StyledTab>Notes</StyledTab>
-          <StyledTab>Record</StyledTab>
+          <StyledTab>Folder</StyledTab>
+          <StyledTab>Archieve</StyledTab>
         </StyledTabList>
         <StyledTabPanels>
           <StyledTabPanel>
